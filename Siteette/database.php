@@ -1,16 +1,10 @@
 
 <?php 
-$hostname="localhost";
+$hostname="127.0.0.1";
 $username="root";
-$password="root";
+$password="";
 $dbname="kurts_data";
 
-$sql= mysqli_connect ($hostname,$username, $password, $dbname) ;
+$sql= mysqli_connect ($hostname, $username, $password, $dbname);
 
-if(!$sql) {
-
-    die ("fail to connect" . mysqli_connect_error());
-}else{
-    echo"It's work";
-}
 ?>

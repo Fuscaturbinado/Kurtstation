@@ -1,4 +1,19 @@
-<form action="acao.php" method="POST" enctype="multipart/form-data">
-<input type="file" name="file">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include_once("database.php"); ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="acao.php" method="POST" enctype="multipart/form-data">
+<label>Title</label>
+<input type="text" required>
+<input type="file" name="image" accept=".jpg , .jpeg, .png ">
+<button type="submit">UPLOAD</button>
 
 </form>
+</body>
+</html>
