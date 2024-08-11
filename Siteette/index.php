@@ -11,7 +11,7 @@
     <script src="functions.js" defer></script>
     
 </head>
- 
+<?php include_once('database.php'); ?>
 <body class="theme">
 <nav>
     <ul>
