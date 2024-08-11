@@ -1,3 +1,4 @@
+/*Site body*/
 *{
     margin: 0px;
     padding: 0px;
@@ -27,6 +28,7 @@ body{
 .im{
     position: relative
 }
+/* drop button*/
 li{
     background-color:rgb(255, 255, 255);
 }
@@ -73,3 +75,6 @@ nav li a:hover{
     background-color: rgb(0, 0, 0);
     padding: 1px;
 }
+
+/* post positions */
+
