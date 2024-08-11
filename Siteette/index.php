@@ -9,8 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Own Site</title>
     <script src="functions.js" defer></script>
+    
 </head>
-
+ 
 <body class="theme">
 <nav>
     <ul>
