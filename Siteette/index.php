@@ -1,12 +1,3 @@
-<?php 
-$hostname="127.0.0.1";
-$username="root";
-$password="";
-$dbname="kurts_data";
-
-$sql= mysqli_connect ($hostname, $username, $password, $dbname);
-?>
-
 <!DOCTYPE html>
 <html rel="stylesheet" lang="en">
 <head>
@@ -18,6 +9,7 @@ $sql= mysqli_connect ($hostname, $username, $password, $dbname);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Own Site</title>
     <script src="functions.js" defer></script>
+    inclue_once('database.php');
     
 </head>
 
@@ -64,21 +56,6 @@ $sql= mysqli_connect ($hostname, $username, $password, $dbname);
     </ul>
 </nav>
 <div class="post">
-<?php 
-if(!$sql) {
-
-    die ("fail to connect" . mysqli_connect_error());
-}else{
-    $query= "SELECT id FROM post";
-    $result= mysqli_query($sql,$query);
-    if(mysqli_num_rows($result)> 0){
-    
-}else{
-    echo"Nothing in database";
-}
-}
-?>
-
 
 </div>
 
