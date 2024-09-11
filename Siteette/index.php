@@ -13,6 +13,7 @@
             <script src="functions.js" defer></script>
             <?php include_once('database.php');?>
             <?php include_once('boot.php');?>
+            
 </head>
 
 <body class="theme">
@@ -65,7 +66,7 @@
     </ul>
 </nav>
 <div class="post">
-
+        <?php include_once('show.php');?>
 </div>
 
 
