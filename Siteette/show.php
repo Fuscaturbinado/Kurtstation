@@ -10,10 +10,10 @@ if($conect->connect_error){
     $query= mysqli_query($conect, $sql);
     $quant= mysqli_num_rows($query);
     print($quant);
-    $text = query(text);
+    $text = mysql_query->fetch(text);
     $i=1;
     for($i = 0 ; $i<$quant; $i++){
-        echo "<div>$<div>";
+        echo "<div>$text<div>";
     }
 }
 
