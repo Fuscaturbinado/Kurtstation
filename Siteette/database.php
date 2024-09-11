@@ -5,6 +5,17 @@ $username="root";
 $password="root";
 $dbname="kurts_data";
 
-$sql= mysqli_connect ($hostname, $username, $password, $dbname);
+$conect= new mysqli($hostname, $username, $password, $dbname);
+
+if($conect->connect_error){
+
+    die("Fail to connect to data base" . $connect->connect_error );
+
+}else{
+
+    
+
+
+} 
 
 ?>
