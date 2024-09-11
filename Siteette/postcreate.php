@@ -11,7 +11,7 @@
     <form action="acao.php" method="POST" enctype="multipart/form-data">
 <label>Title</label>
 <input type="text" required>
-<input type="file" name="image" accept=".jpg , .jpeg, .png ">
+<!-- <input type="file" name="image" accept=".jpg , .jpeg, .png "> -->
 <button type="submit">UPLOAD</button>
 
 </form>
