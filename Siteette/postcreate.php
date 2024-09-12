@@ -16,6 +16,13 @@
 <!-- <input type="file" name="image" accept=".jpg , .jpeg, .png "> -->
 <button type="submit">UPLOAD</button>
 
+<form action="acao.php">
+    <p>Titulo</p>
+    <input type="text" name="Titulo">
+    <P>Subtexto</P>
+    <input type="text" name="sutext">
+    <input type="submit">
 </form>
+
 </body>
 </html>
