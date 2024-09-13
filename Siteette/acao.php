@@ -16,17 +16,21 @@ $Title= $conect -> real_escape_string($_POST['title']);
 $Text= $conect -> real_escape_string($_POST['text']);
 
 $sql= "INSERT INTO `posts` (`title`,`text`,`date`) VALUES ('".$Title."','".$Text."','".date("Y-m-d")."')";
-echo $sql;
+
 $resultado= $conect-> query($sql);
 
     if($resultado === TRUE){
 
-        echo "Created post";
-        exit();
+                echo "Created post";
+                header("index.php");
+                exit();
+
     }else{
-        echo "Error to create post";
-        exit();
+                echo "Error to create post";
+                header("index.php");
+                exit();
         
     }
+    
 }
 ?>
