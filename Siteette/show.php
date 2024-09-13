@@ -14,6 +14,7 @@ if($conect->connect_error){
         $text = $row['text'];
         $date = $row['date'];
 
+        echo $title;
         
     }
 
