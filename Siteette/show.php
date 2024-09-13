@@ -6,15 +6,16 @@ if($conect->connect_error){
     die("Fail to conecto to DB;". $conect ->connect_error);
 
 }else{
-    $sql= "SELECT id FROM `posts`;";
+    $sql= "SELECT id , title, text FROM `posts`;";
     $query= mysqli_query($conect, $sql);
 
     while ($row = $query -> fetch_assoc()) {
         $title = $row['title'];
         $text = $row['text'];
         $date = $row['date'];
-
-        echo $title;
+        echo ($title);
+        echo ($text);
+        echo ($date);
         
     }
 
