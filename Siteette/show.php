@@ -18,23 +18,6 @@ if($conect->connect_error){
         echo ($date);
         
     }
-
-    // $quant= mysqli_num_rows($query);
-    // if($quant > 0){
-    // $sql= "SELECT title, text FROM `posts`;";
-    // print($quant);
-    
-    // $i=1;
-    // for($i = 0 ; $i <$quant; $i++){
-
-    //             echo "<div>$text</div>";
-    //             print($quant);
-    // }
-    // }else{
-        
-    //         echo ("Fail to connect to sever");
-        
-    //     }
 }
 
 
