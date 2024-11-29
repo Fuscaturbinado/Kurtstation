@@ -13,9 +13,10 @@ if($conect->connect_error){
         $title = $row['title'];
         $text = $row['text'];
         $date = $row['date'];
-        echo ($title);
-        echo ($text);
-        echo ($date);
+        
+        echo "<div class= 'titlePost'>$title</div>";
+        echo "<div class = 'textPost'>$text</div>";
+        echo "<div class ='datePost'>$date</div>";
         
     }
 }
