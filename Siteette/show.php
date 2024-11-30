@@ -14,11 +14,13 @@ if($conect->connect_error){
         $text = $row['text'];
         $date = $row['date'];
         echo "<div class ='post'>";
-        echo "<div class ='post'>";
+        echo "<div class ='posiTitle'>";
         echo "<div class = 'titlePost'>$title</div>";
-        echo "<div class ='post'>";
+        echo "</div>";
+        echo "<div class ='posiText'>";
         echo "<div class = 'textPost'>$text</div>";
-        echo "<div class ='post'>";
+        echo "</div>";
+        echo "<div class ='posiDate'>";
         echo "<div class = 'datePost'>$date</div>";
         echo "</div>";
         echo "</div><br>";
