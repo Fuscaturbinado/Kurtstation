@@ -66,9 +66,8 @@
         </li>
     </ul>
 </nav>
-<div class="post">
+
         <?php include_once('show.php');?>
-</div>
 
 
 </body>

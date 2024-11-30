@@ -1,12 +1,14 @@
 .post{
+
     border: 1px solid black;
     width: 1000px ;
     display: flex;
+    align-items: center;
     justify-content: center;
-    
+    position: relative;
+    left: 50%;
+    top: 70PX;
+    transform: translate(-50%, -50% );
 }
-
-.titlePos{
-
-}
+.
 
