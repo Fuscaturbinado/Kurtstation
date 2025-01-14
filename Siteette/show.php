@@ -16,13 +16,13 @@ if($conect->connect_error){
         echo "<div class ='post'>";
         echo "<div class ='posiTitle'>";
         echo "<div class = 'titlePost'>$title</div>";
-        echo "</div>";
+        echo "</div><br>";
         echo "<div class ='posiText'>";
         echo "<div class = 'textPost'>$text</div>";
-        echo "</div>";
+        echo "</div><br>";
         echo "<div class ='posiDate'>";
         echo "<div class = 'datePost'>$date</div>";
-        echo "</div>";
+        echo "</div><br>";
         echo "</div><br>";
     }
 }
