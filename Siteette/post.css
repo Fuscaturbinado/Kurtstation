@@ -1,7 +1,7 @@
 .post{
 
     border: 1px solid black;
-    width: 1000px ;
+    width: 0px ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,5 +11,7 @@
     transform: translate(-50%, -50% );
     
 }
-
+.titlepost{
+    width: 10px;
+}
 
