@@ -19,15 +19,15 @@ $sql= "INSERT INTO `posts` (`title`,`text`,`date`) VALUES ('".$Title."','".$Text
 
 $resultado= $conect-> query($sql);
 
-    if($resultado === TRUE){
+    if($resultado == TRUE){
 
                 echo "Created post";
-                header("index.php");
+                header("Location:index.php");
                 exit();
 
     }else{
                 echo "Error to create post";
-                header("index.php");
+                header("Location:index.php");
                 exit();
         
     }

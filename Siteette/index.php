@@ -64,8 +64,8 @@
 
                     </div>
         </li>
+        <li><a class="CreatePost" href="postcreate.php">+Post</a></li>    
         
-        <button href="postcreate.php"><h3>+POST</h3></button>
     
     </ul>
 </nav>

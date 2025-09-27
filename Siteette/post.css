@@ -3,8 +3,7 @@
     border: 1px solid black;
     width: 1000px ;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: end;
     position: relative;
     left: 50%;
     top: 70px;
@@ -13,5 +12,8 @@
 }
 .titlepost{
     width: 10px;
+}
+.posiDate{
+    justify-content: end;
 }
 

@@ -83,6 +83,15 @@ nav li a:hover{
     background-color: rgb(0, 0, 0);
     padding: 1px;
 }
+.criarPost{
+    display: block;
+    text-decoration: none;
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif,Arial, Helvetica, sans-serif ;
+    margin: 0%;
+    color: rgb(5, 5, 5);
+}
 
 /* post positions */
 
