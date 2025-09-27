@@ -57,10 +57,6 @@
                     <div class="dropdown-menu">
                     <a href="#">test</a>
                     <a href="#">test1</a>
-                    <a href="#">test2</a>
-                    <a href="#">test</a>
-                    <a href="#">test1</a>
-                    <a href="#">test2</a>
 
                     </div>
         </li>
