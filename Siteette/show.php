@@ -13,6 +13,7 @@ if($conect->connect_error){
         $title = $row['title'];
         $text = $row['text'];
         $date = $row['date'];
+        echo "<section>";
         echo "<div class ='post'>";
         echo "<div class ='posiTitle'>";
         echo "<div class = 'titlePost'>$title</div>";
@@ -22,6 +23,7 @@ if($conect->connect_error){
         echo "</div><br>";
         echo "<div class ='posiDate'>";
         echo "<div class = 'datePost'>$date</div>";
+        echo "</section>";
         echo "</div><br>";
         echo "</div><br>";
     }
