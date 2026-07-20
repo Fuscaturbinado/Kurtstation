@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html rel="stylesheet" lang="en">
 <head>
-    
+    <?php define('cssStile','http://localhost/siteette/'); ?>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 </style>
