@@ -1,6 +1,6 @@
 <?php 
 include_once ('database.php');
-
+define('showPostStile_URL', 'http://localhost/siteette/');
 
 if($conect->connect_error){
     die("Fail to conecto to DB;". $conect ->connect_error);
