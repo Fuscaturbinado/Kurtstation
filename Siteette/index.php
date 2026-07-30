@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html rel="stylesheet" lang="en">
 <head>
-    <?php define('cssStile','http://localhost/siteette/estilo.css'); ?>
+    <?php 
+        define('cssStile','http://localhost/siteette/estilo.css'); 
+        define('database_URL','http://localhost/siteette/database/database.php'); 
+        define('bootStart_URL','http://localhost/siteette/Static/boot.php');
+        ?>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 </style>
@@ -12,8 +16,10 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Own Site</title>
             <script src="functions.js" defer></script>
-            <?php include_once('database.php');?>
-            <?php include_once('boot.php');?>
+            <?php 
+            include_once($database);
+            include_once($bootStart_URL);
+            ?>
             
 </head>
 
