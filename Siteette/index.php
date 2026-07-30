@@ -2,24 +2,20 @@
 <html rel="stylesheet" lang="en">
 <head>
     <?php 
-        define('cssStile','http://localhost/siteette/estilo.css'); 
-        define('database_URL','http://localhost/siteette/database/database.php'); 
-        define('bootStart_URL','http://localhost/siteette/Static/boot.php');
+        define('cssStile_URL', 'http://localhost/Kurtstation/Siteette/static/estilo.css');
+        define('database_URL', 'http://localhost/Kurtstation/Siteette/database/database.php');
+        define('bootStart_URL', 'http://localhost/Kurtstation/Siteette/static/boot.php');
         ?>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 </style>
 
             <meta charset="UTF-8">
-            <link rel="stylesheet" href="estilo.css">
+            <link rel="stylesheet" href= <?php echo $cssStile ?> >
             <link rel="stylesheet" href="post.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Own Site</title>
             <script src="functions.js" defer></script>
-            <?php 
-            include_once($database);
-            include_once($bootStart_URL);
-            ?>
             
 </head>
 
