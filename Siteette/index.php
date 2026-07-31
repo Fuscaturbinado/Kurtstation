@@ -2,16 +2,16 @@
 <html rel="stylesheet" lang="en">
 <head>
     <?php 
-        define('cssStile_URL', 'http://localhost/Kurtstation/Siteette/static/estilo.css');
-        define('database_URL', 'http://localhost/Kurtstation/Siteette/database/database.php');
-        define('bootStart_URL', 'http://localhost/Kurtstation/Siteette/static/boot.php');
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
         ?>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 </style>
 
             <meta charset="UTF-8">
-            <link rel="stylesheet" href= <?php echo $cssStile ?> >
+            <link rel = "stylesheet" type = "text/css" href = /static/estilo.css  >
             <link rel="stylesheet" href="post.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Own Site</title>
@@ -68,7 +68,7 @@
     </ul>
 </nav>
 
-        <?php include_once('show.php');?>
+       <?php include_once('database/show.php'); ?>
 
 
 </body>

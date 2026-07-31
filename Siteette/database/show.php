@@ -1,12 +1,12 @@
 <?php 
 include_once ('database.php');
-define('showPostStile_URL', 'http://localhost/siteette/');
+include_once('../static/post.css');
 
 if($conect->connect_error){
     die("Fail to conecto to DB;". $conect ->connect_error);
 
 }else{
-    $sql= "SELECT id , title, text, date FROM `posts`;";
+    $sql= "SELECT id , title, text, date FROM `post_users`;";
     $query= mysqli_query($conect, $sql);
 
     while ($row = $query -> fetch_assoc()) {
