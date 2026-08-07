@@ -5,7 +5,8 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-        ?>
+    ?>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
 </style>
@@ -14,7 +15,7 @@
             <link rel = "stylesheet" type = "text/css" href = /static/estilo.css  >
             <link rel="stylesheet" href="post.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Own Site</title>
+            <title>Kunst Station</title>
             <script src="functions.js" defer></script>
             
 </head>
@@ -24,7 +25,7 @@
     <ul>
         <div class="titulop">
                     <label class="h1d">Kunst</label>
-                    <label class="subtitulo" >station</label>
+                    <label class="subtitulo" >Station</label>
         </div>
 
         <li class="dropdown">
