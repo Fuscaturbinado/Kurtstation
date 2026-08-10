@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html rel="stylesheet" lang="en">
 <head>
-    <?php 
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-    ?>
+    <link rel="icon" type="image/png" href="/img/K.png">
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
