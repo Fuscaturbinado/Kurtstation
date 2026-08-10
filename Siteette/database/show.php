@@ -1,18 +1,18 @@
 <?php 
 include_once ('database.php');
-include_once('../static/post.css');
+include_once('./static/post.css');
 
 if($conect->connect_error){
     die("Fail to conecto to DB;". $conect ->connect_error);
 
 }else{
-    $sql= "SELECT id , title, text, date FROM `post_users`;";
+    $sql= "SELECT id , post_title, subtitle, user_account FROM `post_users`;";
     $query= mysqli_query($conect, $sql);
 
     while ($row = $query -> fetch_assoc()) {
-        $title = $row['title'];
-        $text = $row['text'];
-        $date = $row['date'];
+        $title = $row['post_title'];
+        $text = $row['subtitle'];
+        $user = $row['user_account'];
         echo "<section class = 'postbody'>";
         echo "<div class = 'post'>";
         echo "<div class = 'posiTitle'>";

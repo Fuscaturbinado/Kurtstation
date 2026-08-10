@@ -15,6 +15,7 @@
             <link rel = "stylesheet" type = "text/css" href = /static/estilo.css  >
             <link rel="stylesheet" href="post.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <iconv href="/static/K.png">
             <title>Kunst Station</title>
             <script src="functions.js" defer></script>
             
