@@ -3,13 +3,33 @@ body{
 
 }
 
-.loginsection {
-    display: flex;
-    justify-content: center;
+form{
+    border:1px solid black;
+}
+input[type=text], input[type=password]{
+
+    height: 20pt;
+    width: 100%;
+    
+}
+button{
+    color: #C51717;
+    font-family: "Playwrite BE VLG", cursive;
 }
 
+.section_login{}
+
+.loginsection {
+    display: inline-block;
+}
 .image_login{}
 
-.login_fields{}
+.login_fields{
+    
+}
 
-.submit_sec{}
+.submit_sec{
+    display: flex;
+    justify-items: left;
+}
+

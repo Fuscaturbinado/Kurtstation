@@ -22,7 +22,7 @@
     <ul>
         <div class="titulop">
                     <label class="h1d">Kunst</label>
-                    <label class="subtitulo" >Station</label>
+                    <label class="subtitulo">Station</label>
         </div>
 
         <li class="dropdown">

@@ -14,7 +14,7 @@
 <body class="backgroung">
 
     <form action="/database/loginsecsion.php">
-
+    <section class = "section_login">
     <div class = "loginsection">
         <div class = "image_login">
 
@@ -32,7 +32,7 @@
             <button type="submit">Login</button>
     </div>
     </div>
-
+    </section>
     </form>
     
 </body>
