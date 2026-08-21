@@ -12,6 +12,7 @@ if($conect->connect_error){
         $title = $row['post_title'];
         $text = $row['subtitle'];
         $user = $row['user_account'];
+        echo "Titulo: ". $title . "\nConteudo: ". $text. "Dono: " . $user; 
         
     }
 }

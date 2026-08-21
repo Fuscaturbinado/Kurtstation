@@ -20,46 +20,17 @@
 <body class="theme">
 <nav>
     <ul>
-        <div class="titulop">
-                    <label class="h1d">Kunst</label>
-                    <label class="subtitulo">Station</label>
-        </div>
-
-        <li class="dropdown">
-                    <a href="#">About the Site</a>
-                    <div class="dropdown-menu">
-                    <a href="#">Criador</a>
-                    <a href="#">Propósito</a>
-                    <a href="#">sei lá</a>
+        
+        <li>
+            <div class="titulop"> 
+                <label class="h1d">Kunst</label> 
+                <label class="subtitulo">Station</label>
             </div>
+                <a class = "navitems">Artists</a>
+                <a class = "navitems">About</a>
         </li>
+        
 
-        <li class="dropdown">
-                    <a href="#">Arts</a>
-                    <div class="dropdown-menu">
-                    <a href="#">test</a>
-                    <a href="#">test1</a>
-                    <a href="#">test2</a>
-                    </div>
-        </li>
-
-        <li class="dropdown">
-                    <a href="#">Acounts</a>
-                    <div class="dropdown-menu">
-                    <a href="#">test</a>
-                    <a href="#">test1</a>
-                    <a href="#">test2</a>
-                    </div>
-        </li>
-
-        <li class="dropdown">
-                    <a href="#">Videos trailers</a>
-                    <div class="dropdown-menu">
-                    <a href="#">test</a>
-                    <a href="#">test1</a>
-
-                    </div>
-        </li>
         <li><a class="CreatePost" href="postcreate.php">+Post</a></li>    
         
     
